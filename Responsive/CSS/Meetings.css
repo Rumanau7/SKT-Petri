@@ -1,0 +1,213 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.header{
+  background-image: url(../Images/Meetings.jpeg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 730px;
+  position: relative;
+}
+
+section::after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.navigation{
+  width: 100%;
+  height: 93px;
+  display: flex;
+  position: relative;
+  background-color: #E8E0B8;
+  color: #7d7d7d;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.navigation input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: -2px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+a{
+  text-decoration:none;
+  color: black;
+}
+
+.Search{
+  display: flex;
+  position: relative;
+}
+
+ul{
+  display: flex;
+  padding: 30px 0;
+  list-style-type: none;
+}
+
+li{
+  margin-right: 20px;
+}
+.row1 > div{
+  height: 363px;
+  width: 425px;
+
+}
+.row1{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 20px 20px 20px;
+}
+.row1_div1{
+  background-image: url(../Images/Chairs.jpeg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 730px;
+  position: relative;
+  margin-left: 200px;
+  margin-right:20px;
+
+}
+
+.row1_div2{
+  background-image: url(../Images/Meets.jpeg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 730px;
+  position: relative;
+}
+.row2 > div{
+  height: 363px;
+  width: 425px;
+
+}
+.row2{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 20px 20px 20px;
+  margin-top: -140px;
+}
+.row2_div1{
+  background-image: url(../Images/Man.jpeg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 730px;
+  position: relative;
+  margin-left: 200px;
+  margin-right:20px;
+
+}
+
+.row2_div2{
+  background-image: url(../Images/Book.jpeg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 730px;
+  position: relative;
+}
+.footer_2{
+  padding: 55px 0 80px;
+  background-color: #1c1c1c;
+  width: 100%;
+  height: 600px;
+  position: relative;
+  color: #7d7d7d;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+a1 {
+  display: table;
+  margin-left: 100px;
+  color: white;
+  font-family: Yeseva cursive;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+p3{
+  margin-bottom: 20px;
+  font-size: 13px;
+  color: #ffffff;
+  display: table;
+  margin: 0 auto;
+  font-family: Roboto cursive;
+  font-size: 14px;
+  line-height: 1.628571429;
+
+}
+.img1 {
+  display: block;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: -260px;
+
+}
+.center{
+  display: block;
+  margin-left: 1100px;
+  margin-right: 1100px;
+  margin-top: -600px;
+}
+.row1_text {
+    padding: 30px 0 0;
+    margin-left:200px;
+}
+h2{
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #514f4d;
+}
+p1{
+  position: relative;
+  font-family: Yeseva One,sans-serif;
+  font-size: 16px;
+  color: #896d4a;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-decoration: underline;
+  height:3px;
+  bottom:-6px;
+
+}
+.row1_text2 {
+    padding: 30px 0 0;
+    margin-left: 30px;
+}
+.row2_text1 {
+    padding: 20px 0 0;
+    margin-left: 200px;
+}
+.row2_text2 {
+    padding: 20px 0 0;
+    margin-left: 30px;
+}
